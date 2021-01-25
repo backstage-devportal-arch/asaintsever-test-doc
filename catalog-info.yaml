@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testdoc"
+  description: "Test doc"
+  annotations:
+    github.com/project-slug: "backstage-devportal-arch/asaintsever-test-doc"
+    backstage.io/techdocs-ref: github:https://github.com/backstage-devportal-arch/asaintsever-test-doc
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "user:asaintsever"
